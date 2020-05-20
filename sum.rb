@@ -4,10 +4,18 @@ class Maths
 		sum=a+b
 	end
 
+	def compare(value)
+		puts "Sum of 2 numbers is #{value}"
+		puts "pass" if value == 3
+	end
+
 end
+
+
 
 test=Maths.new
 
-puts test.sum(1,2)
+test.compare(test.sum(1,2))
+
 
 
