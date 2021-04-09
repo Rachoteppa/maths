@@ -11,7 +11,9 @@ class Maths
 
 end
 
-
+puts " Printing ---------------------env value"
+puts ENV["rachoti"]
+puts " Print end  ---------------------env value"
 
 test=Maths.new
 
