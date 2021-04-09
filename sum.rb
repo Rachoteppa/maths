@@ -13,7 +13,7 @@ end
 
 puts " Printing ---------------------env value"
 puts ENV["rachoti"]
-puts ENV["rachoti"].eql? "rachoti"
+puts ENV["rachoti"].eql? "rachoti1"
 puts " Print end  ---------------------env value"
 
 test=Maths.new
